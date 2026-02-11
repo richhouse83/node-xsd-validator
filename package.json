@@ -1,5 +1,5 @@
 {
-  "name": "@richhouse/xsd-validator",
+  "name": "@richhouse83/xsd-validator",
   "version": "1.1.1",
   "description": "XSD schema validator — fork of xsd-validator with updated dependencies",
   "author": "Rich House <rich@richhouse.co.uk>",
