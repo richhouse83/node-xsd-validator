@@ -1,17 +1,19 @@
 # Validating XMLs against XSD schema
 
-Tool for simple validation of XML documents against a XSD schema. Using [libxml](https://github.com/GNOME/libxml2) via [libxmljs](https://github.com/libxmljs/libxmljs).
+NB: This is a straightforward fork of [node-xsd-validator](https://github.com/deltazero-cz/node-xsd-validator) to update to use [libxml2](https://github.com/marudor/libxmljs2). That package is also no longer maintained so at some point a further update will be required.
+
+Tool for simple validation of XML documents against a XSD schema. Using [libxml2](https://github.com/marudor/libxmljs2).
 
 ### Installation
 
 ```shell
-npm i xsd-validator
+npm i @richhouse83/xsd-validator
 ```
 
 ### Usage
 
 ```js
-import validateSchema from 'xsd-validator'
+import validateSchema from '@richhouse83/xsd-validator'
 
 // returns true for valid documents
 validateSchema('<xml...', '<xs:schema...')
