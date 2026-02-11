@@ -25,7 +25,10 @@
     "build": "tsc -b",
     "prepare": "npm run build"
   },
-  "repository": "richhouse83/node-xsd-validator",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richhouse83/node-xsd-validator.git"
+  },
   "engines": {
     "node": ">=22.18.0"
   },
